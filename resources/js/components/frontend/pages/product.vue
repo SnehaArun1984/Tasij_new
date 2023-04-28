@@ -47,9 +47,9 @@
 								<!-- <li v-if="compareCheck(product)">
 									<a class="active_compare" :class="{ disable_btn: is_disabled == true }" @click="removeCompare(product.id)" href="javaScript:void(0)"><span class="mdi mdi-name mdi-scale-balance"></span></a>
 								</li> -->
-								<li v-else>
+								<!-- <li v-else>
 									<a @click="addToCompare(product)" :class="{ disable_btn: is_disabled == true }" href="javaScript:void(0)"><span class="mdi mdi-name mdi-scale-balance"></span></a>
-								</li>
+								</li> -->
 								<li>
 									<a href="javaScript:void(0)" @click="productFetch(product.slug)"><span class="mdi mdi-name mdi-magnify"></span></a>
 								</li>

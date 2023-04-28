@@ -2002,13 +2002,13 @@ textarea.form-control::-webkit-scrollbar-thumb {
 .home-4 .banner__items {
 	display: flex;
 	flex-wrap: wrap;
-	gap:30px;
+	gap:14px ;
 	justify-content: center;
 }
 
 .home-4 .banner__item {
-	flex: 0 0 220px;
-	max-width: 220px;
+	flex: 0 0 174px;
+	max-width: 174px;
 	overflow-x: hidden;
 }
 

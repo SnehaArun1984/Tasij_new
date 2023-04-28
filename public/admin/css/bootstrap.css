@@ -7061,6 +7061,10 @@ button.bg-dark:focus {
   -ms-flex-align: center !important;
   align-items: center !important;
 }
+.justify-content-center
+{
+  justify-content: center!important;;
+}
 
 .align-items-baseline {
   -ms-flex-align: baseline !important;

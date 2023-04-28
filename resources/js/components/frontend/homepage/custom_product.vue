@@ -1,7 +1,7 @@
 <template>
   
   <section class="products-section bg-off-white" v-if="lengthCounter(custom_products) > 0">
-    <div class="container" style="margin-bottom: 40px;">
+    <!-- <div class="container" style="margin-bottom: 40px;">
       <div class="row">
         <div class="col-md-6" style="margin-top: 10px;"><a href="/tasij/" aria-current="page"
             class="add-banner router-link-exact-active router-link-active" id="_0"><img
@@ -14,7 +14,7 @@
               alt="public/images/20230328120554image_620x320-363.png_1" class="img-fluid"></a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container" v-if="lengthCounter(custom_products)">
       <div class="title justify-content-between">

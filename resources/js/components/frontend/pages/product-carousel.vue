@@ -33,7 +33,7 @@
               </h1>
               <div>
 						
-                    <div data-v-e4caeaf8="" class="product_cart-btn buttons d-flex align-items-center" v-if="product.minimum_order_quantity <= product.current_stock && !product.is_catalog && !product.is_classified"
+                    <div data-v-e4caeaf8="" class="product_cart-btn buttons d-flex align-items-center justify-content-center" v-if="product.minimum_order_quantity <= product.current_stock && !product.is_catalog && !product.is_classified"
 									>
 									<a href="javaScript:void(0)" @click="cartBtn(product, index)" class="custom-btn-outline">
 										<span class="mdi mdi-name mdi-shopping-outline"></span> <span class="btn_text">{{lang.add_o_cart}}</span>
@@ -77,10 +77,10 @@
                                                       @click="removeCompare(product.id)"
                                                       href="javaScript:void(0)"><span
                       class="mdi mdi-name mdi-scale-balance"></span></a></li> -->
-                  <li v-else><a @click="addToCompare(product)"
+                  <!-- <li v-else><a @click="addToCompare(product)"
                                 :class="{ 'disable_btn' :  is_disabled == true }"
                                 href="javaScript:void(0)"><span
-                      class="mdi mdi-name mdi-scale-balance"></span></a></li>
+                      class="mdi mdi-name mdi-scale-balance"></span></a></li> -->
                   <li><a href="javaScript:void(0)" @click="productFetch(product.slug)"><span
                       class="mdi mdi-name mdi-magnify"></span></a></li>
                 </ul>

@@ -168,8 +168,8 @@
 		gap: 30px;
 	}
 	.home-4 .banner__item {
-		flex: 0 0 199px;
-		max-width: 199px;
+		flex: 0 0 194px;
+		max-width: 194px;
 	}
 	.sg-product.style-1 .icons ul li.product_cart-btn a {
     padding-inline: 6px;
@@ -995,6 +995,7 @@
 	.home-4 .banner__items {
 		margin-inline-start: 0;
 		gap:7px;
+		/* max-width: 149px; */
 	}
 
 	.product-widget-sidebar {
@@ -2025,6 +2026,9 @@
 	.home-4 .banner__items {
     gap: 18px;
 	}
+	.hero-banner-section .banner__item:nth-child(5) {
+		display: none;
+	}
 } /* (max-width: 575px) End */
 
 /* xs */
@@ -2298,7 +2302,10 @@
 		width: 45%;
 	}
 	.home-4 .banner__items {
-		gap: 11px;
+		gap: 3px;
+	}
+	.hero-banner-section .banner__item:nth-child(5) {
+		display: none;
 	}
 	/* HomePage 4 Style/index4.html---------END--------- */
 

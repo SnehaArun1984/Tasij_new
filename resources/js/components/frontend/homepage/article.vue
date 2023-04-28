@@ -1,14 +1,14 @@
 <template>
   <section class="deal-section">
-    <div class="container" style="margin-top: 40px;">
+    <!-- <div class="container" style="margin-top: 40px;">
       <div class="row">
         <div class="col-md-12 mt-2"><a href="/tasij/" aria-current="page"
             class="add-banner router-link-exact-active router-link-active" id="_0"><img
               src="public/images/20230328120554image_1260x452-5.png"
               alt="public/images/20230328120554image_1260x452-5.png_0" class="img-fluid"></a></div>
       </div>
-    </div>
-    <div class="container" style="margin-top: 40px;">
+    </div> -->
+    <!-- <div class="container" style="margin-top: 40px;">
       <div class="row">
         <div class="col-md-4" style="margin-top: 10px;"><a href="/tasij/" aria-current="page"
             class="add-banner router-link-exact-active router-link-active" id="_0"><img
@@ -26,7 +26,7 @@
               alt="public/images/20230328120555image_400x235-224.png_2" class="img-fluid"></a>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="container">
       <div v-html="settings.article"></div>
       <div class="category-content-style-1" v-if="settings.category_Section && settings.category_Section == 1">
